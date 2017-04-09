@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainbackground"
+    android:background="#000000" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:indeterminate="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:id="@+id/loading"
+        android:textColor="#FFFFFF"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageButton
+        android:id="@+id/moreinfo"
+        android:background="#00000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/moreinfo_selector"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/infopane"
+        android:visibility="gone"
+        android:background="#DDFFFFFF">
+
+        <TextView
+            android:id="@+id/recommendation_title"
+            android:text="Looks Great With"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="350dp"
+            android:gravity="center"
+            android:background="#000000" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recommendationGrid"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true">
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recommendationGridOverlay"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true">
+        </GridLayout>
+
+
+        <TextView
+            android:id="@+id/inventory_title"
+            android:text="Sizing and Availability"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="450dp"
+            android:gravity="center"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/hide"
+            android:text="Hide [x]"
+            android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="450dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:background="#000000"
+            />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sizeGrid"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="400dp"
+            android:layout_centerHorizontal="true">
+
+        </GridLayout>
+
+        <TextView
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:background="#000000" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

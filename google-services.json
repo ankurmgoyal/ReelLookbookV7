@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "41429554413",
+    "project_id": "lookbookv6"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41429554413:android:bd8062f78dcbc84f",
+        "android_client_info": {
+          "package_name": "com.example.ankurmgoyal.reellookbookv7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6kuri0Bqy3J_y1cBRtKiQJEdstPGt1qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-91363367-6"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
