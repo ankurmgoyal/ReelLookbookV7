@@ -35,7 +35,7 @@ public class Tag {
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
                     Connection conn = null;
-                    conn = DriverManager.getConnection("***REMOVED***", "xxxx", "xxx");
+                    conn = DriverManager.getConnection("jdbc:mysql://107.180.43.9:3306/dor", "xxxx", "xxx");
                     Statement statement = conn.createStatement();
                     ResultSet rs = statement.executeQuery("SELECT SUM( Quantity ) FROM  `main` WHERE (`StyleNumber` =  'JA1700')");
                     while(rs.next()){

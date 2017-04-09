@@ -219,7 +219,7 @@ public class TitlePage extends Activity {
 
                     Class.forName("com.mysql.jdbc.Driver");
                     Connection conn = null;
-                    conn = DriverManager.getConnection("***REMOVED***", "***REMOVED***", "***REMOVED***");
+                    conn = DriverManager.getConnection("jdbc:mysql://107.180.43.9:3306/dor", "xxxx", "xxxx");
                     Statement statement = conn.createStatement();
 
                     //understand number of items
